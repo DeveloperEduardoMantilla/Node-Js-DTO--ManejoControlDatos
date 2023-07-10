@@ -1,0 +1,27 @@
+DTO => Manejo y control de datos a traves de DTO, tratamiento de datos y estructura 
+
+FormanData
+Validater
+
+
+1. Configuracion inicial de entorno 
+2. Configurar librerias
+    npm init -y
+    npm i -E -D class-transformer =>  biblioteca que facilita la transformación y validación de objetos JavaScript en diferentes formatos, como JSON, mediante la utilización de decoradores y metadatos.
+    npm i -E -D reflect-metadata => Obligar o decirle a nuestros json su comportamiento al guardar la data.
+    npm i -E -D typescript 
+    npm i -E -D nodemon
+
+3. Crear archivo typescript.json => Aca va la configuracion de typescript
+4. type: module en el archivo package.json
+5. "scripts": {
+    "tsc": "tsc -w"
+  },
+6. Configuracion del archivo user.ts 
+
+
+Actividad
+Tenemos que hacer esta misma actividad en el ejercicio de endpoint 
+
+Como implementar un middleware en un routing 
+Como implementar un DTO con middleware 
