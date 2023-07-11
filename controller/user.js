@@ -20,7 +20,7 @@ export class user {
 }
 __decorate([
     Expose({ name: "id" }),
-    Transform(({ value }) => parseInt(value), { toClassOnly: true }),
+    Transform(({ value }) => (parseInt(value)) ? value : "Error", { toClassOnly: true }),
     __metadata("design:type", Number)
 ], user.prototype, "ID", void 0);
 __decorate([

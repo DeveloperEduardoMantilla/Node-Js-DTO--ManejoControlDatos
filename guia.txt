@@ -3,6 +3,10 @@ DTO => Manejo y control de datos a traves de DTO, tratamiento de datos y estruct
 FormanData
 Validater
 
+Comando para ejecutar aplicacion
+
+1. npm run dev
+2. npm run tsc 
 
 1. Configuracion inicial de entorno 
 2. Configurar librerias
@@ -25,3 +29,8 @@ Tenemos que hacer esta misma actividad en el ejercicio de endpoint
 
 Como implementar un middleware en un routing 
 Como implementar un DTO con middleware 
+
+
+Palabras claves
+
+Math.floor() => Valida si estrictamente es un numero

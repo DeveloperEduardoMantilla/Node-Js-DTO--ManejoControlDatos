@@ -2,7 +2,7 @@ import {Expose, Type, Transform} from "class-transformer";
 
 export class user{
     @Expose({name: "id"})
-    @Transform(({value})=>parseInt(value), {toClassOnly: true})
+    @Transform(({value})=>(parseInt(value)) ? value: "Error", {toClassOnly: true})
     ID:number;
     @Expose({name: "nombre"})
     @Type(() => String)
